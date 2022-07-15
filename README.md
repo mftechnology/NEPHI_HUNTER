@@ -3,7 +3,7 @@ Final Project BYU Class
 
 
 # THE NEPHI HUNTER GAME
-This's a game where the players (Nephi) try to hunt a wild animal using your bow and arrow 
+This is a game where players (Nephi) try to hunt a wild animal using their bow and arrow but pay attention to the poison some animals can throw at you
 
 ## Getting started
 ---
@@ -14,8 +14,8 @@ You can install Raylib Python CFFI by opening a terminal and running the followi
 ## RULES
 
 * Player can move left and right...
-* Player use space bar to play arrow to animal target
-* Players try to down poilson animal
+* Player use space bar to shot arrow to animal target
+* Players need to dodge some poisonous animals
 * Players have 3 attempt (lives)
 
 

@@ -158,7 +158,8 @@ class Animals(pygame.sprite.Sprite):
 		"""Constructs a new Animal instance."""
 
 		pygame.sprite.Sprite.__init__(self)
-		self.image = pygame.image.load("images/animal" + str(random.randint(1, 5)) + ".png")
+		self.image = pygame.image.load("nephi_hunter/images/animal" + str(random.randint(1, 5)) + ".png")
+		#self.image = pygame.image.load(ANIMAL_IMAGE)
 		self.rect = self.image.get_rect()
 		self.rect.center = [x, y]
 		self.move_counter = 0

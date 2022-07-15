@@ -1,4 +1,4 @@
-
+import random
 # -------------------------------------------------------------------------------------------------- 
 # GENERAL GAME CONSTANTS
 # -------------------------------------------------------------------------------------------------- 
@@ -42,19 +42,20 @@ FONT_LARGE = 48
 
 # SOUND
 
-ARROW_SOUND = "sound/arrow_sound.wav"
-ANIMAL_SOUND = "sound/animal_sound.wav"
-NEPHI_SOUND = "sound/nephi_sound.wav"
+ARROW_SOUND = "nephi_hunter/sound/arrow_sound.wav"
+ANIMAL_SOUND = "nephi_hunter/sound/animal_sound.wav"
+NEPHI_SOUND = "nephi_hunter/sound/nephi_sound.wav"
 VOLUME = 0.25
 
 # IMAGES
 
-ANIMAL_IMAGE = [f"assets/images/animal{n}.png" for n in range(0, 6)]
-#ANIMAL_IMAGE = "assets/images/animal1.png"
-ARROW_IMAGE = "images/arrow.png"
-BOW_IMAGE = "images/bow.png"
-DESERT_IMAGE = "images/desert.png"
-POISON_IMAGE = "images/poison.png"
+#ANIMAL_IMAGE = [f"nephi_hunter/images/animal{n}.png" for n in range(0, 6)]
+#ANIMAL_IMAGE = [f"nephi_hunter/images/animal" + str(random.randint(1, 5)) + ".png"]
+ANIMAL_IMAGE = "assets/images/animal1.png"
+ARROW_IMAGE = "nephi_hunter/images/arrow.png"
+BOW_IMAGE = "nephi_hunter/images/bow.png"
+DESERT_IMAGE = "nephi_hunter/images/desert.png"
+POISON_IMAGE = "nephi_hunter/images/poison.png"
 
 # DIALOG
 DIALOG_GROUP = "dialogs"
